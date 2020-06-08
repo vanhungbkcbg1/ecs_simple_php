@@ -1,6 +1,6 @@
 <?php
 
-$url = $_ENV["api_url"] ?? "https://jsonplaceholder.typicode.com/posts";
+$url = $_ENV["api_url"] ?? "https://jsonplaceholder.typicode.com/users";
 $cURLConnection = curl_init();
 
 curl_setopt($cURLConnection, CURLOPT_URL, $url);
