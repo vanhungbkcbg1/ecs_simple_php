@@ -32,6 +32,6 @@
       "volumesFrom": []
     }
   ],
-  "family": "php_client_jenkin",
+  "family": "jenkin_php_client",
   "volumes": []
 }
